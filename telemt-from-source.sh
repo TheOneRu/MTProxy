@@ -133,7 +133,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.hardened
-    container_name: telemt
+    container_name: telemt2
     #
     restart: unless-stopped
     volumes:

@@ -43,7 +43,7 @@ cat > docker-compose.yml <<EOF
 services:
   telemt:
     image: $IMAGE
-    container_name: telemt
+    container_name: telemt2
     restart: unless-stopped
     volumes:
       - ./telemt.toml:/etc/telemt.toml:ro

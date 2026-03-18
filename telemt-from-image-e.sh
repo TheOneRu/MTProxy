@@ -374,7 +374,7 @@ cat > "$COMPOSE_FILE" <<EOF
 services:
   telemt:
     image: $IMAGE_NAME
-    container_name: telemt
+    container_name: telemt2
     restart: unless-stopped
     volumes:
       - ./$CONFIG_FILE:/etc/telemt.toml:ro
