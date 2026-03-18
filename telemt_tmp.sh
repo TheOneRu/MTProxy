@@ -2,8 +2,8 @@
 set -e
 
 #   Configuration  
-PORT="4433"
-SITE="google.com"
+PORT="2053"
+SITE="icloud.com"
 IMAGE="whn0thacked/telemt-docker:latest"
 
 #   Colors  

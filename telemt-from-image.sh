@@ -364,7 +364,7 @@ cat > "$CONFIG_FILE" <<EOF
 show_link = ["docker"]
 [general]
 fast_mode = true
-use_middle_proxy = true
+use_middle_proxy = false
 [general.modes]
 classic = false
 secure = false
@@ -378,8 +378,8 @@ listen_addr_ipv6 = "::"
 [[server.listeners]]
 ip = "0.0.0.0"
 [timeouts]
-client_handshake = 15
-tg_connect = 10
+client_handshake = 30
+tg_connect = 15
 client_keepalive = 60
 client_ack = 300
 [censorship]

@@ -9,7 +9,7 @@
 REPO_URL="https://github.com/telemt/telemt.git"
 REPO_DIR="/root/telemt_src"
 
-PORT="4433"
+PORT="2053"
 SITE="google.com"
 CONFIG_FILE="config.toml"
 COMPOSE_FILE="docker-compose.yml"
@@ -109,7 +109,7 @@ EOF
         cat > "$CONFIG_FILE" <<EOF
 [general]
 fast_mode = true
-use_middle_proxy = true
+use_middle_proxy = false
 [general.modes]
 classic = false
 secure = false
